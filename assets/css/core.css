@@ -1,0 +1,144 @@
+table.fuse-table tr td {
+	padding: 13px 15px;
+	border-top: 1px solid #f5f5f5;
+}
+
+table.fuse-table tr td.label {
+	width: 24%;
+	vertical-align: top;
+	background: #F9F9F9;
+	border-right: 1px solid #E1E1E1;
+	padding: 13px 15px;
+	font-size: 13px;
+	line-height: 1.5em;
+	border-top: 1px solid #f0f0f0;
+}
+
+table.fuse-table tr:first-child td {
+	border-top: 0;
+}
+
+table.fuse-table tr td.label label {
+	display: block;
+	font-size: 13px;
+	line-height: 1.4em;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 0 3px;
+	color: #333;
+}
+
+table.fuse-table tr td.label p.description {
+	display: block;
+	font-size: 12px;
+	line-height: 1.4em;
+	padding: 0 !important;
+	margin: 3px 0 0 !important;
+	font-style: normal;
+	line-height: 16px;
+	color: #899194;
+}
+
+table.fuse-table tr td input,
+table.fuse-table tr td select {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+
+.postbox-container div[id*="fuse_metabox"] .meta-inner {
+	padding: 0 12px;
+	padding-bottom: 15px;
+}
+
+.postbox-container div[id*="fuse_metabox"] .inside {
+	padding: 0;
+}
+
+.postbox-container div[id*="fuse_metabox"] .inside .spinner {
+	float: left;
+	margin-top: 5px;
+}
+
+.postbox-container div[id*="fuse_metabox"] #settings-action {
+	line-height: 28px;
+	vertical-align: middle;
+	text-align: left;
+	float: left;
+}
+
+.postbox-container div[id*="fuse_metabox"] #settings-action a {
+	text-decoration: none;
+	color: #a00;
+}
+
+.postbox-container div[id*="fuse_metabox"] #settings-action a:hover {
+	color: #0074A2;
+}
+
+#poststuff .postbox .hndle {
+	cursor: pointer;
+}
+
+#post-body {
+	position: relative;
+}
+
+#post-body .tablenav {
+	position: absolute;
+	right: 0;
+	top: -40px;
+}
+
+#post-body tr.no-items td {
+	padding: 20px 15px;
+}
+
+.column-description .dashicons {
+	font-size: 11pt;
+	margin-top: 1px;
+	text-align: left;
+	width: 16px;
+}
+
+.wp-core-ui .button.button-warning {
+	background: #E03232;
+	color: #fff;
+	border-color: #970000;
+	box-shadow: inset 0 1px 0 #F06C6C,0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.wp-core-ui .button.button-warning:hover {
+	background: #F15656;
+	border-color: #CE3B3B;
+	box-shadow: inset 0 1px 0 #FF6666,0 1px 0 rgba(29, 21, 21, 0.16);
+}
+
+.wp-core-ui .button.button-warning:focus {
+	background: #FF6262;
+	border-color: #D61717;
+	box-shadow: inset 0 1px 0 rgba(230, 120, 120, 0.6),0 0 0 1px #F3929A,0 0 2px 1px rgba(211, 121, 121, 0.8);
+}
+
+.wp-core-ui .button.button-warning:active {
+	box-shadow: inset 0 1px 0 #DF3737,0 1px 0 rgba(255, 226, 226, 0.16);
+}
+
+table.widefat.fuse-table {
+	border: 0;
+	background: transparent;
+	box-shadow: none;
+}
+
+#post-body-content .postbox .inside {
+	padding: 0;
+	margin: 0;
+}
+
+#poststuff .fuse-box h2 {
+	font-size: 15px;
+	font-weight: 500;
+	color: #C2C2C2;
+	letter-spacing: 0.05em;
+	padding-bottom: 10px;
+}
